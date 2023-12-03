@@ -1,0 +1,67 @@
+/*
+File: styles.css
+GUI Assignment: Updating our HW3 so that it can utilize the JQuery Validation Plugin
+Danny Nguyen, UMass Lowell Computer Science, Danny_nguyen2@student.uml.edu
+Copyright (c) 2023 by Danny. All rights reserved. May be freely copied or 
+excerpted for educational purposes with credit to the author. 
+updated by DN on November 28, 2023 at 4:50 pm.
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+	margin-top: 10px;
+	border: 1px solid black;
+	padding: 15px;
+	border-radius: 8px;
+	max-width: 400px;
+	background-color: black;
+}
+.form-box{
+	margin-bottom: 15px;
+	border: 1px solid grey;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: grey;
+}
+
+p {
+	font-weight: bold;
+	padding-left: 100px;
+}
+h2 {
+	text-align: center;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+#tableContainer {
+	max-height: 400px;
+	max-width: 1500px;
+	overflow: auto;
+	color: white;
+	margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+	flex: 1;
+}
+
